@@ -15,10 +15,10 @@ class Teclado extends StatelessWidget {
         
         return Container(
           decoration: BoxDecoration(
-            color: Color.fromARGB(255, 109, 109, 109),  // Cor de fundo escura
-            borderRadius: BorderRadius.circular(20),  // Bordas arredondadas
+            color: Color.fromARGB(255, 109, 109, 109),  
+            borderRadius: BorderRadius.circular(20),  
           ),
-          margin: EdgeInsets.only(top: 10),  // Espaço entre o visor e os botões
+          margin: EdgeInsets.only(top: 10),  
           child: Column(
             children: <Widget>[
               _buildBotoesLinha(['C', '^', '!', '/'], buttonWidth, buttonHeight),

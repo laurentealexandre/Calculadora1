@@ -25,7 +25,7 @@ class _CalculadoraState extends State<Calculadora> {
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255), // Cinza mais claro
+        backgroundColor: Color.fromARGB(255, 255, 255, 255), 
         body: SafeArea(
           child: Container(
             margin: const EdgeInsets.fromLTRB(16, 16, 16, 8),
@@ -42,7 +42,7 @@ class _CalculadoraState extends State<Calculadora> {
             ),
             child: Column(
               children: <Widget>[
-                // Container para o visor
+                
                 Container(
                   margin: EdgeInsets.all(16),
                   decoration: BoxDecoration(
@@ -51,8 +51,8 @@ class _CalculadoraState extends State<Calculadora> {
                   ),
                   child: Visor(memoria.valorNoVisor),
                 ),
-                SizedBox(height: 1), // Espaço entre o visor e os botões
-                // Container para os botões
+                SizedBox(height: 1), 
+                
                 Expanded(
                   child: Container(
                     margin: EdgeInsets.all(16),
